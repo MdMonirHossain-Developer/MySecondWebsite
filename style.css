@@ -25,7 +25,7 @@ p.content_paragraph{padding: 5px; text-align: justify;}
 li.content_li{padding: 5px; text-align: justify; margin-left: 25px;}
 blockquote p.seconcontent_paragraph{padding: 5px; text-align: justify; margin-bottom: 15px;}
 button.content_bottombtn{background-color: orange; color: white; font-size: 10px; border: none; border-radius: 5px; padding:  8px 20px 8px 20px;}
-div.content_img img{height: 360px;}
+div.content_img img{height: 360px; width: 400px;}
 section.section_gellary{width: 520px; margin: 0 auto; margin-top: 20px;}
 div.divtitle_paragraph{text-align: center; margin-bottom: 20px;}
 h2.gellary_title{margin-bottom: 10px;}

@@ -13,16 +13,16 @@
     }
  }
 @media screen and (max-width: 600px) {
-    .topnav a:not(:first-child) {display: none;}
-    .topnav a.icon {
+    .header-nav a:not(:first-child) {display: none;}
+    .header-nav a {
       float: right;
       display: block;
     }
   }
   
 @media screen and (max-width: 600px) {
-    header-nav {position: relative;}
-    header-nav .icon {
+    .header-nav {position: relative;}
+    .header-nav {
       position: absolute;
       right: 0;
       top: 0;

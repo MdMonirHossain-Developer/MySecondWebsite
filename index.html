@@ -18,6 +18,9 @@
             <li><a href="#">Testimonial</a></li>
             <li><a href="#">About</a></li>
             <li><a href="#">Blog</a></li>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+              </a>
         </nav>
     </header>
     <div id="main_container">
@@ -69,7 +72,7 @@
     </div>
     <script>
         function myFunction() {
-          var x = document.getElementById("myTopnav");
+          var x = document.getElementById("header-nav");
           if (x.className === "header-nav") {
             x.className += " responsive";
           } else {
