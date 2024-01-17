@@ -1,0 +1,29 @@
+@media screen and (max-width: 420px) {
+    
+ }
+ @media screen (max-width: 576px)and(min-width: 421px) {
+    
+ }
+ @media screen (max-width: 960px)and(min-width: 575px) {
+    header.main-header{width: 100%;}
+ }
+ @media screen (max-width: 1400px)and(min-width: 959px) {
+    body{
+        width: 100%;
+    }
+ }
+@media screen and (max-width: 600px) {
+    .topnav a:not(:first-child) {display: none;}
+    .topnav a.icon {
+      float: right;
+      display: block;
+    }
+  }
+  
+@media screen and (max-width: 600px) {
+    header-nav {position: relative;}
+    header-nav .icon {
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
